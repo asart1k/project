@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Мій кольоровий сайт з блоками в блоках</title>
+  <style>
+    .block {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #fff;
+      margin-bottom: 10px;
+    }
+    
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .outer-block {
+      width: 400px;
+      height: 400px;
+      background-color: #ffd700;
+      border: 1px solid #fff;
+      padding: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .normal-block {
+      width: 100px;
+      height: 100px;
+      background-color: #ff69b4;
+      border: 1px solid #fff;
+      margin-bottom: 10px;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Кольоровий сайт з блоками в блоках</h1>
+  <div class="outer-block">
+    <div class="block" style="background-color: #00ced1;"></div>
+    <div class="block" style="background-color: #ff6347;"></div>
+  </div>
+  <div class="outer-block">
+    <div class="block" style="background-color: #ffa500;"></div>
+    <div class="block" style="background-color: #8a2be2;"></div>
+  </div>
+  <div class="container">
+    <div class="block" style="background-color: #90ee90;"></div>
+    <div class="block" style="background-color: #ff8c00;"></div>
+    <div class="block" style="background-color: #6a5acd;"></div>
+    <div class="block" style="background-color: #ffd700;"></div>
+    <div class="block" style="background-color: #32cd32;"></div>
+    <div class="block" style="background-color: #ff00ff;"></div>
+  </div>
+  <div class="normal-block" style="background-color: #6495ed;"></div>
+  <div class="normal-block" style="background-color: #00ff7f;"></div>
+  <div class="normal-block" style="background-color: #f08080;"></div>
+</body>
+</html>
