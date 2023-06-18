@@ -1,0 +1,121 @@
+body{
+	background-color: skyblue;
+}
+p{
+	font-size: 50px;
+ color: rosybrown;
+ background-color: darkblue;
+
+}
+a.l1{
+	font-size: 32px;
+font-family: cursive;
+
+}
+.l1:active{
+	color: aqua;
+}
+.l1:visited{
+	color: deeppink;
+
+}
+.l1:hover{
+	background-color: purple;
+}
+.b1{
+width: 200px;
+height: 100px;
+font-size: 32px;
+background-color: orange;
+color: green;
+border: solid 10px green;
+border-radius: 10% 20%;
+}
+.b1:hover{
+	background-color: red;
+color: greenyellow;
+border: solid 10px rosybrown;
+border-radius: dashed 10% 30%;
+font-weight: 700;
+transform: translateY(50px);
+
+
+}
+.myButton {
+	box-shadow:inset 6px 5px 50px 15px #3dc21b;
+	background-color:#44c767;
+	border-radius:37px;
+	border:8px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:25px;
+	font-style:italic;
+	padding:19px 43px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.button-56 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
